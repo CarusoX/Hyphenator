@@ -1,13 +1,20 @@
 {
   "name": "@carusox/hyphenator",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A library of cross-browser cross-device hyphenation in JS",
+  "main": "lib/index.js",
+   "types": "lib/index.d.ts",
+  "files": [
+    "lib/**/*"
+  ],
   "scripts": {
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "tslint -p tsconfig.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["Hyphenation"],
+  "author": "CarusoX",
   "license": "ISC",
   "repository": {
     "type": "git",
@@ -16,5 +23,15 @@
   "bugs": {
     "url": "https://github.com/CarusoX/Hyphenator/issues"
   },
-  "homepage": "https://github.com/CarusoX/Hyphenator#readme"
+  "homepage": "https://github.com/CarusoX/Hyphenator#readme",
+  "devDependencies": {
+    "@types/react": "^17.0.39",
+    "prettier": "^2.5.1",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "react": "^17.0.2"
+  }
 }
