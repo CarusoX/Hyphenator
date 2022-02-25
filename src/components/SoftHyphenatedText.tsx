@@ -5,6 +5,7 @@ import { useMergeRefs, useSoftHyphenation } from '..';
 const StyledSpan = styled.span`
   overflow: hidden;
   display: inline-block;
+  max-width: 100%;
 `;
 
 interface SoftHyphenatedTextProps {
