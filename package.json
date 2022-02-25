@@ -26,12 +26,14 @@
   "homepage": "https://github.com/CarusoX/Hyphenator#readme",
   "devDependencies": {
     "@types/react": "^17.0.39",
+    "@types/styled-components": "^5.1.23",
     "prettier": "^2.5.1",
     "tslint": "^6.1.3",
     "tslint-config-prettier": "^1.18.0",
     "typescript": "^4.5.5"
   },
   "dependencies": {
-    "react": "^17.0.2"
+    "react": "^17.0.2",
+    "styled-component": "^2.8.0"
   }
 }

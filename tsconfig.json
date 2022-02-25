@@ -5,6 +5,7 @@
     "declaration": true,
     "outDir": "./lib",
     "strict": true,
+    "jsx": "react",
     "esModuleInterop": true
   },
   "include": ["src"],
