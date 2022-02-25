@@ -1,6 +1,6 @@
 {
   "name": "@carusox/hyphenator",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A library of cross-browser cross-device hyphenation in JS",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
