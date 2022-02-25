@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef, useMemo } from 'react';
+import React, { useEffect, useRef } from 'react';
 
 // Custom hook to track dimension of a component
 // Taken and modified from https://stackoverflow.com/a/60218754
